@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2197F922043EF18002EE293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2197F912043EF18002EE293 /* AppDelegate.m */; };
+		D2197F952043EF18002EE293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2197F942043EF18002EE293 /* ViewController.m */; };
+		D2197F982043EF18002EE293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2197F962043EF18002EE293 /* Main.storyboard */; };
+		D2197F9A2043EF18002EE293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2197F992043EF18002EE293 /* Assets.xcassets */; };
+		D2197F9D2043EF18002EE293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2197F9B2043EF18002EE293 /* LaunchScreen.storyboard */; };
+		D2197FA02043EF18002EE293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2197F9F2043EF18002EE293 /* main.m */; };
+		D2197FAA2043EF18002EE293 /* ZTVerifyWIFIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2197FA92043EF18002EE293 /* ZTVerifyWIFIDemoTests.m */; };
+		D2197FB72043EFDD002EE293 /* ZTVerifyWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = D2197FB62043EFDD002EE293 /* ZTVerifyWIFI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2197FA62043EF18002EE293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2197F852043EF18002EE293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2197F8C2043EF18002EE293;
+			remoteInfo = ZTVerifyWIFIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2197F8D2043EF18002EE293 /* ZTVerifyWIFIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTVerifyWIFIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2197F902043EF18002EE293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2197F912043EF18002EE293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2197F932043EF18002EE293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2197F942043EF18002EE293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2197F972043EF18002EE293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2197F992043EF18002EE293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2197F9C2043EF18002EE293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2197F9E2043EF18002EE293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2197F9F2043EF18002EE293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2197FA52043EF18002EE293 /* ZTVerifyWIFIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTVerifyWIFIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2197FA92043EF18002EE293 /* ZTVerifyWIFIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTVerifyWIFIDemoTests.m; sourceTree = "<group>"; };
+		D2197FAB2043EF18002EE293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2197FB52043EFDD002EE293 /* ZTVerifyWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTVerifyWIFI.h; sourceTree = "<group>"; };
+		D2197FB62043EFDD002EE293 /* ZTVerifyWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTVerifyWIFI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2197F8A2043EF18002EE293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2197FA22043EF18002EE293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2197F842043EF18002EE293 = {
+			isa = PBXGroup;
+			children = (
+				D2197F8F2043EF18002EE293 /* ZTVerifyWIFIDemo */,
+				D2197FA82043EF18002EE293 /* ZTVerifyWIFIDemoTests */,
+				D2197F8E2043EF18002EE293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2197F8E2043EF18002EE293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2197F8D2043EF18002EE293 /* ZTVerifyWIFIDemo.app */,
+				D2197FA52043EF18002EE293 /* ZTVerifyWIFIDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2197F8F2043EF18002EE293 /* ZTVerifyWIFIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D2197FB42043EFBD002EE293 /* ZTVerifyWIFI */,
+				D2197F902043EF18002EE293 /* AppDelegate.h */,
+				D2197F912043EF18002EE293 /* AppDelegate.m */,
+				D2197F932043EF18002EE293 /* ViewController.h */,
+				D2197F942043EF18002EE293 /* ViewController.m */,
+				D2197F962043EF18002EE293 /* Main.storyboard */,
+				D2197F992043EF18002EE293 /* Assets.xcassets */,
+				D2197F9B2043EF18002EE293 /* LaunchScreen.storyboard */,
+				D2197F9E2043EF18002EE293 /* Info.plist */,
+				D2197F9F2043EF18002EE293 /* main.m */,
+			);
+			path = ZTVerifyWIFIDemo;
+			sourceTree = "<group>";
+		};
+		D2197FA82043EF18002EE293 /* ZTVerifyWIFIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2197FA92043EF18002EE293 /* ZTVerifyWIFIDemoTests.m */,
+				D2197FAB2043EF18002EE293 /* Info.plist */,
+			);
+			path = ZTVerifyWIFIDemoTests;
+			sourceTree = "<group>";
+		};
+		D2197FB42043EFBD002EE293 /* ZTVerifyWIFI */ = {
+			isa = PBXGroup;
+			children = (
+				D2197FB52043EFDD002EE293 /* ZTVerifyWIFI.h */,
+				D2197FB62043EFDD002EE293 /* ZTVerifyWIFI.m */,
+			);
+			path = ZTVerifyWIFI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2197F8C2043EF18002EE293 /* ZTVerifyWIFIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2197FAE2043EF18002EE293 /* Build configuration list for PBXNativeTarget "ZTVerifyWIFIDemo" */;
+			buildPhases = (
+				D2197F892043EF18002EE293 /* Sources */,
+				D2197F8A2043EF18002EE293 /* Frameworks */,
+				D2197F8B2043EF18002EE293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTVerifyWIFIDemo;
+			productName = ZTVerifyWIFIDemo;
+			productReference = D2197F8D2043EF18002EE293 /* ZTVerifyWIFIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2197FA42043EF18002EE293 /* ZTVerifyWIFIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2197FB12043EF18002EE293 /* Build configuration list for PBXNativeTarget "ZTVerifyWIFIDemoTests" */;
+			buildPhases = (
+				D2197FA12043EF18002EE293 /* Sources */,
+				D2197FA22043EF18002EE293 /* Frameworks */,
+				D2197FA32043EF18002EE293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2197FA72043EF18002EE293 /* PBXTargetDependency */,
+			);
+			name = ZTVerifyWIFIDemoTests;
+			productName = ZTVerifyWIFIDemoTests;
+			productReference = D2197FA52043EF18002EE293 /* ZTVerifyWIFIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2197F852043EF18002EE293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CharlesChwang;
+				TargetAttributes = {
+					D2197F8C2043EF18002EE293 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2197FA42043EF18002EE293 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2197F8C2043EF18002EE293;
+					};
+				};
+			};
+			buildConfigurationList = D2197F882043EF18002EE293 /* Build configuration list for PBXProject "ZTVerifyWIFIDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2197F842043EF18002EE293;
+			productRefGroup = D2197F8E2043EF18002EE293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2197F8C2043EF18002EE293 /* ZTVerifyWIFIDemo */,
+				D2197FA42043EF18002EE293 /* ZTVerifyWIFIDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2197F8B2043EF18002EE293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2197F9D2043EF18002EE293 /* LaunchScreen.storyboard in Resources */,
+				D2197F9A2043EF18002EE293 /* Assets.xcassets in Resources */,
+				D2197F982043EF18002EE293 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2197FA32043EF18002EE293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2197F892043EF18002EE293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2197F952043EF18002EE293 /* ViewController.m in Sources */,
+				D2197FA02043EF18002EE293 /* main.m in Sources */,
+				D2197F922043EF18002EE293 /* AppDelegate.m in Sources */,
+				D2197FB72043EFDD002EE293 /* ZTVerifyWIFI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2197FA12043EF18002EE293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2197FAA2043EF18002EE293 /* ZTVerifyWIFIDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2197FA72043EF18002EE293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2197F8C2043EF18002EE293 /* ZTVerifyWIFIDemo */;
+			targetProxy = D2197FA62043EF18002EE293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2197F962043EF18002EE293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2197F972043EF18002EE293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2197F9B2043EF18002EE293 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2197F9C2043EF18002EE293 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2197FAC2043EF18002EE293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2197FAD2043EF18002EE293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2197FAF2043EF18002EE293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZTVerifyWIFIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueElephant.ZTVerifyWIFIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2197FB02043EF18002EE293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZTVerifyWIFIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueElephant.ZTVerifyWIFIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2197FB22043EF18002EE293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZTVerifyWIFIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueElephant.ZTVerifyWIFIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTVerifyWIFIDemo.app/ZTVerifyWIFIDemo";
+			};
+			name = Debug;
+		};
+		D2197FB32043EF18002EE293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZTVerifyWIFIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueElephant.ZTVerifyWIFIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTVerifyWIFIDemo.app/ZTVerifyWIFIDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2197F882043EF18002EE293 /* Build configuration list for PBXProject "ZTVerifyWIFIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2197FAC2043EF18002EE293 /* Debug */,
+				D2197FAD2043EF18002EE293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2197FAE2043EF18002EE293 /* Build configuration list for PBXNativeTarget "ZTVerifyWIFIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2197FAF2043EF18002EE293 /* Debug */,
+				D2197FB02043EF18002EE293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2197FB12043EF18002EE293 /* Build configuration list for PBXNativeTarget "ZTVerifyWIFIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2197FB22043EF18002EE293 /* Debug */,
+				D2197FB32043EF18002EE293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2197F852043EF18002EE293 /* Project object */;
+}
